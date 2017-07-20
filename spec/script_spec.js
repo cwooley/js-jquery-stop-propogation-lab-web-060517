@@ -16,7 +16,7 @@ describe('Traffic Lights', function() {
   });
 
   it('#redLight turns light red', function() {
-    lightActive();
+    // lightActive();
     redLight();
     $('.redLight:first').click();
     expect($('.redLight:first')[0].className).toEqual("redLight red");
@@ -49,7 +49,7 @@ describe('Traffic Lights', function() {
   });
 
   it('#yellowLight turns light yellow', function() {
-    lightActive();
+    // lightActive();
     yellowLight();
     $('.yellowLight:first').click();
     expect($('.yellowLight:first')[0].className).toEqual("yellowLight yellow");
@@ -67,7 +67,8 @@ describe('Traffic Lights', function() {
   });
 
   it('#greenLight turns light green', function() {
-    lightActive();
+    // lightActive();
+    //why are therse called here???
     greenLight();
     $('.greenLight:first').click();
     expect($('.greenLight:first')[0].className).toEqual("greenLight green");
@@ -76,7 +77,7 @@ describe('Traffic Lights', function() {
   });
 
 
-  
+
 
 
 
